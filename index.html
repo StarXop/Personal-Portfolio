@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6cdd42499b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- <h1>Hello, world!</h1> -->
+
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="starx">Star<span style="color:#ff004f ;">X</span>
+                </a>
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Protfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-regular fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end developer</p>
+                <h1>
+                    Hi I'm <span style="color: #ff004f;">Shrikant</span>
+                    <br>
+                    Jaiswal from India
+                </h1>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- about me  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img1.png">
+
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About me</h2>
+                    <div>
+
+                        <p>Experienced in making Youtube videos with good communication skills. Skilled in Web
+                            Development, video editing, software development, and Canva. Strong communication skills
+                            with a Bachelor of Technology - BTech focused in Computer Science from Lovely Professional
+                            University.
+                    </div>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span>
+                                <br>
+                                Wordpress & Webflow
+                            </li>
+                            <li><span>Development</span>
+                                <br>
+                                Frontend Development
+                            </li>
+                            <li><span>Video Editing</span>
+                                <br>
+                                Filmora and Adobe Premier Pro
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current Experience</span>
+                                <br>
+                                6 months Work Experience
+                            </li>
+                            <li><span>LPU</span>
+                                <br>
+                                College Work Experience
+                            </li>
+                            <li><span>Growth Natives</span>
+                                <br>
+                                Development Experience
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Graduation</span>
+                                <br>
+                                B.tech -2022
+                            </li>
+                            <li><span>Intermediate</span>
+                                <br>
+                                PCM - 2017
+                            </li>
+                            <li><span>High School</span>
+                                <br>
+                                PCM - 2015
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- services  -->
+
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">
+                My Services
+            </h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design </h2>
+                    <p>Web design and development is an umbrella term that describes the process of creating a website.
+                        Like the name suggests, it involves two major skill sets: web design and web development. Web
+                        design determines the look and feel of a website, while web development determines how it
+                        functions.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Development</h2>
+                    <p>Create basic website layouts and user interfaces with HTML and CSS. Integrate data from various
+                        back-end web services and databases. Work with stakeholders to gather and refine specifications
+                        and requirements based on technical needs. Create and maintain software documentation.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>Youtube </h2>
+                    <p>Hello Friends My name is Shrikant, I Love travelling with friends, adventure,, making films. I
+                        upload videos about my life, travelling, trekking whatever I could catch on my camera that I can
+                        share.
+                        I also share knowledgeable Podcast on education and career fields.
+                        Welcome Friends In My World.
+                        Thank you.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Portfolio work  --------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">
+                My Work
+            </h2>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Weather apps are the most popular way to instantly access forecasts, warnings and other
+                            useful weather information on our mobile phones.</p>
+                        <a href="https://www.linkedin.com/in/shrikant2242/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="./work-2.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Movie Rating</h3>
+                        <p>It provides all the necessary information like reviews, ratings, images, videos, etc. that
+                            you may need to decide if the movie is worth watching or not.</p>
+
+                        <a href="https://starxmovies.netlify.app/#home" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="./work-3.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Protfolio </h3>
+                        <p> is an online representation of work you have created, as well as your skills and
+                            experiences.</p>
+                        <a href="https://www.linkedin.com/in/shrikant2242/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+
+
+    <!-- contacts form -------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i>shri224205@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9434429434</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/starxtechnical/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shrikant2242/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCRKy7m_KW4grqOKJu6fVt5Q"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="./Shrikant Jaiswal.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="Your-name" required>
+                        <input type="email" name="Email" placeholder="Enter your mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> Copyright ⓒ Shrikant, Made by <i class="fa-solid fa-heart"></i> StarX </p>
+        </div>
+        <div class="progress-bar" />
+        <button class="back-to-top hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+            </svg>
+        </button>
+        <div class="progress-bar" />
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links')
+        var tabcontents = document.getElementsByClassName('tab-contents')
+
+        function opentab(tabname) {
+            for (let x of tablinks) {
+
+                x.classList.remove("active-link")
+            }
+            for (let y of tabcontents) {
+                y.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        // sidemenu 
+
+        var sidemenu = document.getElementById('sidemenu')
+        function openmenu() {
+            sidemenu.style.right = "0"
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+
+        }
+
+
+    </script>
+
+    <!-- scroll button  -->
+
+    <script>
+        const showOnPx = 100;
+        const backToTopButton = document.querySelector(".back-to-top");
+        const pageProgressBar = document.querySelector(".progress-bar");
+
+        const scrollContainer = () => {
+            return document.documentElement || document.body;
+        };
+
+        const goToTop = () => {
+            document.body.scrollIntoView({
+                behavior: "smooth"
+            });
+        };
+
+        document.addEventListener("scroll", () => {
+            console.log("Scroll Height: ", scrollContainer().scrollHeight);
+            console.log("Client Height: ", scrollContainer().clientHeight);
+
+            const scrolledPercentage =
+                (scrollContainer().scrollTop /
+                    (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
+                100;
+
+            pageProgressBar.style.width = `${scrolledPercentage}%`;
+
+            if (scrollContainer().scrollTop > showOnPx) {
+                backToTopButton.classList.remove("hidden");
+            } else {
+                backToTopButton.classList.add("hidden");
+            }
+        });
+
+        backToTopButton.addEventListener("click", goToTop);
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwVzCGnje5wbuPmDSicRco6RXTA5tmzasOCbvYpZ_3czdD8trJH2fZtAM3GnMYTrfOkzw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML= "message sent successfully"
+                   setTimeout(function(){
+                    msg.innerHTML = ""
+                   },5000)
+                   form.reset()
+                } )
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+
+</html>
